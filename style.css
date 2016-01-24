@@ -65,21 +65,18 @@ ul.skills{
   float:left;
   width:20%;
   padding-left:0px;
-  margin: 0 20px 0 0;
+  margin: 4px 20px 0 0;
 }
 ul.skills li{
   list-style: none;
   font-size:16px;
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
-ul.skills li:last-child{
-  margin:0;
+.subsection {
+  padding-top: 10px;
 }
 .subsection p {
   font-size: 14px;
-}
-.subsection {
-  padding-top: 10px
 }
 .title {
   font-style: italic;
