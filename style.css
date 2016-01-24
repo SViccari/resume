@@ -1,0 +1,98 @@
+.page {
+  width: 900px;
+  min-height: 29.7cm;
+  margin: 5px auto;
+  background: white;
+  padding: 20px 50px;
+}
+.bold {
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+.col-left {
+  float: left
+}
+.col-right {
+  float: right
+}
+.contact {
+  font-size: 12px;
+  height: 70px;
+}
+.contact-item {
+  float: left;
+  width: 180px;
+}
+.desc {
+  padding-left: 15px;
+  font-size: 14px;
+}
+.desc li {
+  list-style-type: circle;
+}
+.icon-background {
+  color: white;
+}
+.light {
+  color: #aaa;
+  letter-spacing:1px;
+  font-size: 12px;
+  line-height:28px;
+  font-family: "source-sans-pro", sans-serif;
+  text-transform: uppercase;
+}
+.loose {
+  letter-spacing: 4px;
+}
+.section {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 15px;
+}
+.section-header {
+  text-transform: uppercase;
+}
+.section-text {
+  height: auto;
+  width: 80%;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 0 10px;
+  padding: 0px 10px;
+}
+ul.skills{
+  float:left;
+  width:20%;
+  padding-left:0px;
+  margin: 0 20px 0 0;
+}
+ul.skills li{
+  list-style: none;
+  font-size:16px;
+  margin-bottom:10px;
+}
+ul.skills li:last-child{
+  margin:0;
+}
+.subsection p {
+  font-size: 14px;
+}
+.subsection {
+  padding-top: 10px
+}
+.title {
+  font-style: italic;
+}
+.row:after {
+  clear: both
+}
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+}
