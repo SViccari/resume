@@ -1,3 +1,8 @@
+/* Colors */
+:root {
+  --green: forestgreen;
+}
+
 .page {
   width: 900px;
   min-height: 29.7cm;
@@ -84,6 +89,9 @@ ul.skills.short{
 .title {
   font-style: italic;
 }
+.job-title {
+  color: var(--green);
+}
 .row:after {
   clear: both
 }
@@ -95,4 +103,17 @@ ul.skills.short{
   body {
     -webkit-print-color-adjust: exact;
   }
+}
+
+/* Publication Section */
+.publication-listing{
+  padding: 4px 0;
+}
+.publication-listing a{
+  text-decoration: none;
+  color: black;
+}
+.publication-listing a:hover {
+  color: var(--green);
+  text-decoration: underline;
 }
