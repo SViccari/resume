@@ -63,14 +63,17 @@
 }
 ul.skills{
   float:left;
-  width:15%;
+  width:12%;
   padding-left:0px;
-  margin: 4px 20px 0 0;
+  margin: 4px 30px 0 0;
 }
 ul.skills li{
   list-style: none;
   font-size:16px;
   margin-bottom:5px;
+}
+ul.skills.short{
+  width: 8%;
 }
 .subsection {
   padding-top: 10px;
