@@ -30,6 +30,16 @@
   float: left;
   width: 180px;
 }
+.contact-item a {
+  text-decoration: none;
+  color: black;
+}
+.contact-item a:hover {
+  color: var(--green);
+}
+.contact-item .social-icon{
+  padding-top: 12px;
+}
 .desc {
   padding-left: 15px;
   font-size: 14px;
